@@ -1,30 +1,44 @@
-.page.theme_dark {
-  --text-color: var(--coor-pink-2 #f1b2ce)
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-
-  --page-background-color: var(--color-black-1, #000028);
-  --page-background-image: url("../images/cover-image-dark.png");
-
-  --rec-decor-visibility: visible;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: var(--color-pink-2, #f1b2ce);
-    --brand-color: var(--color-purple-1, #db00ff);
-    --secondary-color: var(--color-purple-2, #ff0070);
-    --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-    --accent-color: var(--color-purple-2, #ff0070);
-    --highlight-color: var(--color-black-1, #000028);
-
-    --page-background-color: var(--color-black-1, #000028);
-    --page-background-image: url("../images/cover-image-dark.png");
-
-    --rec-decor-visibility: visible;
-  }
+body {
+  margin: 0 auto;
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.page {
+  font-family: var(--main-font), sans-serif;
+}
