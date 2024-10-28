@@ -1,44 +1,13 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-picture {
-  margin: 0;
-  padding: 0;
-}
-
-button,
-a {
-  color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-.page {
-  font-family: var(--main-font), sans-serif;
+.page.theme_dark {
+  --accent-clr: #ff0070;
+  --accent-clr-with-background: #000028;
+  --accent-heading-clr: #db00ff;
+  --text-clr: #f1b2ce;
+  --button-hover-clr: #ff007066;
+  --heading-clr: #ff0070;
+  --decorative-bracket-clr: #ff0070;
+  --menu-clr: #ff0070;
+  --headers-clr: #ff0070;
+  --rec-decoration-clr: #ff0070;
+  --cover-image: url(../images/cover-image-dark.png);
 }
