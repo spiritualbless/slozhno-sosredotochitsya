@@ -38,12 +38,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-}
-
-.page {
-  font-family: var(--main-font), sans-serif;
-}
