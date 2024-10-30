@@ -1,7 +1,7 @@
 /* #nachalo начало вспомогательных классов */
 
 .shadow-decor {
-  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 /* #konec конец вспомогательных стилей */
@@ -15,7 +15,7 @@
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: var(--color-black-1, #000028);
+  background-color: var(--accent-color-bg);
   background-image: var(--cover-image);
   background-position: center;
   background-size: cover;
@@ -93,23 +93,23 @@
 }
 
 .page-title {
-  color: var(--brand-color, #db00ff);
+  color: var(--accent-heading-color);
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .title {
-  color: var(--secondary-color, #ff0070);
+  color: var(--accent-color);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
 }
 
 .title-decor {
-  color: var(--highlight-color, #000028);
-  background: var(--accent-color, #ff0070);
+  color: var(--accent-color-bg);
+  background: var(--accent-color);
 }
 
 .section {
@@ -178,12 +178,12 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--menu-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-40, #ff007040);
+  border-color: var(--button-hover-color);
 }
 
 .header__theme-menu-button:focus {
@@ -196,11 +196,11 @@
 
 .header__title {
   margin-block: 55px;
-  color: var(--highlight-color, #000028);
+  color: var(--accent-color-bg);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
-  background: var(--accent-color, #ff0070);
+  background: var(--accent-color);
 }
 
 /* #konec конец блока header */
@@ -287,7 +287,7 @@
 
 @media (width >= 1024px) {
   .page-title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
+    text-shadow: 4px 4px 0 var(--accent-color);
   }
 
   .decorated-zone {

@@ -1,25 +1,30 @@
+
+
 .page.theme_light {
-  --text-color: var(--color-black-2, #353430);
-  --accent-color: var(--color-pink-4, #ff8dcb);
-  --brand-color: var(--color-pink-3, #ffc2e6);
-  --highlight-color: var(--color-black-2, #353430);
-  --secondary-color: var(--color-black-2, #353430);
-  --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
-  --page-background-color: var(--color-pink-1, #fff1f7);
-  --cover-image: url("../images/cover-image-light.png");
-  --rec-decor-visibility: hidden;
+  --cover-image: url(../images/cover-image-light.png);
+  --accent-color: #ff8dcb;
+  --accent-color-bg: #353430;
+  --accent-heading-color: #ffc2e6;
+  --text-color: #353430;
+  --button-hover-color: #32312d66;
+  --dec-bracket-color: #353430;
+  --menu-color: #353430;
+  --rec-dec-color: transparent;
+  --heading-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
-    --text-color: var(--color-black-2, #353430);
-    --accent-color: var(--color-pink-4, #ff8dcb);
-    --brand-color: var(--color-pink-3, #ffc2e6);
-    --highlight-color: var(--color-black-2, #353430);
-    --secondary-color: var(--color-black-2, #353430);
-    --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
-    --page-background-color: var(--color-pink-1, #fff1f7);
-    --cover-image: url("../images/cover-image-light.png");
-    --rec-decor-visibility: hidden;
+    --cover-image: url(../images/cover-image-light.png);
+    --accent-color: #ff8dcb;
+    --accent-color-bg: #353430;
+    --accent-heading-color: #ffc2e6;
+    --text-color: #353430;
+    --button-hover-color: #32312d66;
+    --dec-bracket-color: #353430;
+    --menu-color: #353430;
+    --rec-dec-color: transparent;
+    --heading-color: #353430;
   }
 }
