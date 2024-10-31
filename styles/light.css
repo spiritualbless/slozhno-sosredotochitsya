@@ -9,7 +9,7 @@
   --button-hover-color: #32312d66;
   --dec-bracket-color: #353430;
   --menu-color: #353430;
-  --rec-dec-color: transparent;
+  --rec-decor-visibility: hidden;
   --heading-color: #353430;
 }
 
@@ -24,7 +24,7 @@
     --button-hover-color: #32312d66;
     --dec-bracket-color: #353430;
     --menu-color: #353430;
-    --rec-dec-color: transparent;
+    --rec-decor-visibility: hidden;
     --heading-color: #353430;
   }
 }

@@ -77,6 +77,7 @@
   z-index: -1;
   display: inline-flex;
   align-items: center;
+  visibility: var(--rec-decor-visibility, visible);
   gap: 10px;
   color: var(--rec-dec-color);
   inset-inline-end: 20px;

@@ -5,9 +5,10 @@
   --text-color: #f1b2ce;
   --button-hover-color: #ff007066;
   --heading-color: #ff0070;
-  --dec-bracket-clr: #ff0070;
+  --dec-bracket-color: #ff0070;
   --menu-color: #ff0070;
   --headers-color: #ff0070;
   --rec-dec-color: #ff0070;
   --cover-image: url(../images/cover-image-dark.png);
+  --rec-decor-visibility: visible;
 }
