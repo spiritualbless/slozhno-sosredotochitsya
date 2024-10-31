@@ -15,7 +15,8 @@
   line-height: 23.4px;
   background-color: var(--accent-color-bg);
   background-image: var(--cover-image);
-  background-position: center;
+  background-position: top center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -233,6 +234,10 @@
   place-items: center;
 }
 
+.text-shadow-footer {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
 /* #konec конец блока footer */
 
 @media (width >= 768px) {
@@ -300,6 +305,10 @@
 @media (width >= 1024px) {
   .page-title {
     text-shadow: 4px 4px 0 var(--accent-color);
+  }
+
+  .text-shadow-footer {
+    text-shadow: 2px 2px 0 var(--accent-color);
   }
 
   .section {
